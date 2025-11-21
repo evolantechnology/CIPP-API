@@ -58,7 +58,8 @@ jobs:
         id: fa
         with:
           app-name: 'cippsuz4k'
-          slot-name: 'Production'
+          #slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_118EA8CC11AD4C26AF7585B90B932950 }}
+
